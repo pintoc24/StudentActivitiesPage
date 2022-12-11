@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="...">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Activities Home Page</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+          <div class="container">
+            <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Student</span><span style="color: #fff;">Activities</span></a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Tabling</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Social Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">...</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      
+        <!--Section: Design Block-->
+        <section>
+          <!-- Intro -->
+          <div id="intro" class="bg-image vh-100" style="
+                background-image: url('https://s3.amazonaws.com/assets1.wlu.edu/files/open-graph/colonnade-and-shadow.jpg'); ">
+            <div class="mask" style="background-color: rgba(250, 182, 162, 0.15);"></div>
+            <div class="height-100 d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Upload </button> <!-- Modal -->
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+            Uploading a photo</h5> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="body-desc"> 
+            It will be easier for your friends to recognize you if you upload your real photo. You can upload the image in JPG, GIF or PNG format. </p>
+                            <div class="photo-input"> <input type="file" id="loadFile" onchange="console.log(this.files[0].name);" /> <button class="btn btn-sm btn-primary" onclick="document.getElementById('loadFile').click()"> Select a file </button> </div>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="footer-title">
+            If you're having problems uploading, try choosing a smaller photo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- Intro -->
+        </section>
+        
+        <!--Section: Design Block-->
+      </header>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

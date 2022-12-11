@@ -1,0 +1,56 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+body {background-color:#eee
+}
+
+.height-100 {
+    height:100vh
+}
+
+.modal-header>.modal-title {
+    font-size: 14px
+}
+
+.modal-body>.body-desc {
+    font-size: 14px
+}
+
+.modal-footer>.footer-title {
+    font-size: 12px
+}
+
+#loadFile {
+    display: none
+}
+
+.modal-header>.modal-title, .modal-body>.body-desc, .modal-body>.photo-input, .modal-footer>.footer-title {
+    text-align: center
+}
